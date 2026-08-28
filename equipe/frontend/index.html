@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha primeira pagina</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1>Ola, eu sou o arthur</h1>
+
+    <h2>Sobre mim</h2>
+    <p>Estudo Sistema de Informacoes e estou aprendendo HTML.</p>
+
+    <h2>O que eu gosto</h2>
+    <p>Clube Atletico Mineiro, musica e futebol.</p>
+
+    <h2>Onde eu estudo</h2>
+    <p><a href="https://newtonpaiva.br">
+            Centro Universitario Newton Paiva</a></p>
+
+    <img src="img/newpai.jpg" alt="Foto do campus" width="400">
+    
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#gostos">O que eu gosto</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#dados">dados</a></li>
+        </ul>
+    </nav>
+    <section id="gostos" ;>
+        <h2> O que eu gosto</h2>
+
+        <h3>Minhas tres musicas favoritas</h3>
+        <ol>
+            <li>Pessoas</li>
+            <li>deposito dos rejeitados</li>
+            <li>hoje nao</li>
+        </ol>
+    </section>
+
+    <section id="dados">
+        <h2>Meus horarios</h2>
+        <table>
+            <caption>Aulas do semestre</caption>
+            <tread>
+                <tr>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Diciplina</th>
+                    <th scope="col">Sala</th>
+                </tr>
+            </tread>
+            <tbody>
+                <tr>
+                    <th scope="col">terca</th>
+                    <th scope="col">Si e sociedade</th>
+                    <th scope="col">alg</th>
+                </tr>
+                <tr>
+                    <th scope="col">quarta</th>
+                    <th scope="col">introducao a programcao</th>
+                    <th scope="col">alg</th>
+                </tr>
+                <tr>
+                    <th scope="col">quinta</th>
+                    <th scope="col">desenvolvimento web</th>
+                    <th scope="col">alg</th>
+                </tr>
+                <tr>
+                    <th scope="col">sexta</th>
+                    <th scope="col">banco de dados</th>
+                    <th scope="col">alg</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contato">
+        <h2>fala comigo</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Seus dados</legend>
+                <div>
+                    <label for="nome">nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto"></select>
+                </div>
+            </fieldset>
+            <button type="submit">enviar</button>
+        </form>
+            
+    </section>
+</body>
+
+</html>
