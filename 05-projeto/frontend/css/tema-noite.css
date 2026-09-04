@@ -1,0 +1,33 @@
+:root
+*, *::before, *::after {
+box-sizing: border-box;
+}
+main {
+background-color: var(--superficie);
+padding: 1.5rem 2rem;
+border-radius: 8px;
+}
+section {
+margin-bottom: 2.5rem;
+}
+h2 {
+margin-top: 0;
+padding-bottom: .5rem;
+border-bottom: 2px solid var(--principal);
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex; /* lado a lado */
+flex-wrap: wrap; /* quebra se faltar espaço */
+gap: .5rem; /* o vão entre eles */
+}
+nav li {
+/* o display: inline-block sai daqui */
+}
+nav a {
+display: block;
+padding: .875rem 1rem;
+}
